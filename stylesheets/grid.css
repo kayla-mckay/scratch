@@ -1,0 +1,56 @@
+/* =Grid Layout
+-------------------------------------------------------------- */
+
+.post {
+	clear:none;
+	float:left;
+	min-height:260px;
+	width:340px;
+	padding:15px 0px;
+	margin:0;
+}
+.feature .post {
+	float:none;
+	width:inherit;
+	padding:inherit
+}
+.archive .post {
+	min-height:300px;
+}
+.navigation {
+	clear:both;
+}
+.sticky {
+	padding:15px 0;
+}
+.post > * {
+	padding:0px 0px 0 0;
+}
+.feature .post >* {
+	padding:0;
+}
+.post h2 {
+	clear:both;
+	margin:0;
+}
+.post .thumbnail h3 {
+	left:15px;
+	bottom:25px
+}
+.archive .post,
+.search .post {
+	min-height:300px;
+}
+.single .post,
+.page .post {
+	width:100%;
+	float:none;
+}
+.single .post > *,
+.page.post > * {
+	padding:0px;
+}
+.single .post h2,
+.page .post h2 {
+	padding:20px 0;
+}
